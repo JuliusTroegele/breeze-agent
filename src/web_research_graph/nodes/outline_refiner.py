@@ -58,5 +58,6 @@ async def refine_outline(
         outline=refined_outline,
         related_topics=state.related_topics,
         perspectives=state.perspectives,
-        is_last_step=state.is_last_step
+        is_last_step=state.is_last_step,
+        references=state.references,
     ) 
